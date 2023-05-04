@@ -39,3 +39,9 @@ h2 {
     width: 100%;
     height: auto;
 }
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
