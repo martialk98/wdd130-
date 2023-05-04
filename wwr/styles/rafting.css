@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+:root {
+    --primary-color:#30343F;
+    --secondary-color:#FAFAFF;
+    --accent1-color:#E4D9FF;
+    --accent2-color:#273469;
+
+    --heading-font: 'Instrument Serif', serif;
+    --paragraph-font: 'Instrument Serif', serif;
+
+    --nav-background-color:#FAFAFF;
+    --nav-link-color:#30343F;
+    --nav-hover-link-color:#E4D9FF;
+    --nav-hover-background-color:#273469;
+}
+
+body {
+    font-family: var(--paragraph-font);
+   max-width: 960px;
+   padding: 20px;
+}
+
+p {
+    padding: 25px;
+    color:#273469
+}
+
+h1 {
+    color: #273469;
+}
+
+h2 {
+    color: #30343F;
+}
