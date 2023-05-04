@@ -33,3 +33,9 @@ h1 {
 h2 {
     color: #30343F;
 }
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
