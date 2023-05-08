@@ -1,34 +1,90 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header, footer {
+    min-width: 840px;
+    margin: 0 auto;
 }
+
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff; /% shorthand for white %/
+}
+
 body {
     font-size: 16px;
     font-family: instrument serif;
 }
 
-main {
+main { 
+    float: right;
     max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
+    padding: 1.2px;
+    border-image: space;   
+}
+ 
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 80px;   
 }
 
-aside {
-    width: 20em;
+footer {
     text-align: center;
-    position: relative;
     
 }
 
-nav {
-    background-color: steelblue;
-    padding: 10px;
+.grid {
+    display: grid;
+    align-items: center;
 }
 
-nav a {
-    color: white;
-    padding: 10px;
-    display: block;
+main img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    float: right;
+    shape-outside: content-box;
+    filter: drop-shadow(0 0 0.75rem)
+}
+
+main h2 {
+    margin-bottom: 60px;
+}
+
+main p {
+    line-height: 1.4;
+}
+
+.box{
+    border: 1px solid;
+    color: black;
+    width: 40%; 
+    height: 70%; 
+    padding: 20px; 
+}
+
+.box img{
+    width: 500px;
+}
+
+main .box {
+   width: 93%;
+   height: 80px;
+   background-color: grey;
 }
 
 aside img {
@@ -39,31 +95,4 @@ aside h2 {
     position: absolute;
     top: 65px;
     left: 150px;
-}
-
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-    float: right;
-    margin: 0 0 1rem 1rem;
-}
-
-p {padding: 0;}
-
-footer {
-    margin-top: 1em;
-    border-top: 1px solid #000;
-    text-align: center;
-}
-
-/*class selector*/
-.box{
-    margin: 1rem;
-    border: 1px solid rgba(0 , 0 , 0 , 0.1);
-    padding: 1rem;
-    background-color: #ddd;
-    color: #000;
 }
