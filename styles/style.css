@@ -72,9 +72,11 @@ main p {
 .box{
     border: 1px solid;
     color: black;
-    width: 40%; 
-    height: 70%; 
+    width: 500px; 
+    height: 600px; 
     padding: 20px; 
+    background: rgb(233, 231, 231);
+    margin: 10px 50px 5px;
 }
 
 .box img{
@@ -82,9 +84,10 @@ main p {
 }
 
 main .box {
-   width: 93%;
-   height: 80px;
-   background-color: grey;
+   width: 600px;
+   height: 50px;
+   background-color: rgb(233, 231, 231);
+   margin: 0;
 }
 
 aside img {
@@ -95,4 +98,9 @@ aside h2 {
     position: absolute;
     top: 65px;
     left: 150px;
+    margin: 3px;
+}
+main h1 {
+    color: steelblue;
+    text-align: justify;
 }
