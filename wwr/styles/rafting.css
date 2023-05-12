@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+:root {
+    --primary-color:#EFBDEB;
+    --secondary-color:#000000;
+    --accent1-color:#800E13;
+    --accent2-color:#035E7B;
+
+    --heading-font: 'Instrument Serif', serif;
+    --paragraph-font: 'Instrument Serif', serif;
+
+    --nav-background-color: #EFBDEB;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #800E13;
+    --nav-hover-background-color: #035E7B;
+}
+
+header {
+	display: grid;
+	border-bottom: 1px solid;
+	background: #035E7B;
+	align-items: center;
+}
+
+header nav {
+	float: right;
+	text-align:center;
+	min-height: 30px;
+	margin: 0 100px 70px 30px;
+}
+
+header nav li {
+	display: inline;
+	list-style: none;
+ }
+header nav a {
+	display: inline-block;
+	line-height: 30px;
+	color: #000000;
+	padding: 0 5%;
+ }
+
+header nav a :hover {
+	color:#000000;
+	background: #800E13;
+	transition: padding .2s;	
+ }
+
+ header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FAFAFF;
+ }
+
+ header li {
+	float: right;
+  border-right: 1px solid #E4D9FF
+ }
+
+ header li a {
+	display: block;
+	color: #273469;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+ }
+
+header li{
+  float: right;
+  border-right: 1px solid #E4D9FF
+}
+
+ header img {
+	float: left;
+	background: #E4D9FF;
+}
+
+
+h1, h2 {
+  text-align: center;
+  color: #000000;
+  font-family: 'Instrument Serif', serif;;
+}
+p {
+  font-size: large;
+  color:#000000;
+  font-family: 'Instrument Serif', serif;
+}
+
+.container{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-bar {
+	float: right;
+	margin: 70px 0 30px 450px;
+	font-size: large;
+	font-family: 'Instrument Serif', serif;
+}
+
+.article{ 
+  float: center;
+  Align-items: center;
+ border: 1px solid black;
+ max-width: 50%;
+ margin: 0 20% 0 25%;
+ padding: 20px;
+}
+
+section {
+  float: center;
+  Display: inline ;
+  align-items: center;
+}
+
+.camping{ 
+  float: left;
+  margin-left: 150px;
+}
+  
+.rapid{ 
+  float: left;
+  margin-left: 30px;
+}
+  
+.river1{ 
+  float: left;
+  margin-left: 30px;
+}
+  
+.river2{ 
+    float: left ;
+    margin-left: 30px;
+}
+.rafting {
+  float: right;
+  margin-right: 150px;
+}
+
+.clients{
+  float: right;
+  margin-right: 50px;
+}
+
+.clear {
+  clear: both;
+}
+
+section p {
+  text-align: center;
+}
+
+footer {
+  background-color: #035E7B;
+  text-align: center;
+  color: #000000;
+  margin: 10em 0 0 0;
+}
+
+footer nav {
+  text-align: right;
+}
+
+body {
+  background: #EFBDEB;
+
+}
+
+.history Img {
+  width :100px;
+  height :70px;
+  Object-fit: cover;
+  Float: right;
+  shape-outside: content-box;
+}
+
+.article Img {
+  float: right;
+  width: 230px; 
+  height :120px;
+  Object-fit: cover;
+  shape-outside: content-box;
+}
+
