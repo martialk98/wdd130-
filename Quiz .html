@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" US>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Basic HTML and CSS Quiz</title>*
+        <link rel="stylesheet" href="styles/Quiz.css">
+    </head>
+    <body>
+        <form method="post" action="Quiz.php">
+        <div class="l_form">
+            <h1 class="form_title">Basic HTML and CSS Quiz</h1>
+            <h2 class="form_title">Answer to these questions</h2>
+            <ol>
+                <div class="form_div">
+                    <li>
+                        <p>What does the acronym CSS mean ?</p>
+                        <input type="text" id="acronym CSS" placeholder="Answer" class="form_input" required>
+                    </li>
+                </div><br>
+                <div class="form_div">
+                    <li>
+                        <p>What are your favorite languages ?</p>
+                        <input type="checkbox" id="language1">
+                        <label for="python" class="form_label">PYTHON</label><br>
+                        <input type="checkbox" id="language2">
+                        <label for="html/css" class="form_label">HTML</label><br>
+                        <input type="checkbox" id="language3">
+                        <label for="javascript" class="form_label">JAVASCRIPT</label><br>
+                        <input type="checkbox" id="language4">
+                        <label for="c++" class="form_label">C++</label><br>
+                    </li>
+                </div><br>
+                <div class="form_div">
+                    <li>
+                        <p>What does html mean ?</p>
+                        <select name="html" id="html" class="form_input" required>
+                            <option value="">select one answer</option>
+                            <option value="html">HyperText Markup Language</option>
+                            <option value="html">HyperText Make Language</option>
+                            <option value="html">Host Text Markup Language</option>
+                        </select>
+                    </li>
+                </div>
+                <div class="form_div">
+                    <li>
+                        <p>What is the current HTML version ?</p>
+                        <input type="radio" id="HTML version" name="HTML version">
+                        <label for="HTML version" class="form_label">HTML 5</label><br>
+                        <input type="radio" id="HTML version" name="HTML version">
+                        <label for="HTML version" class="form_label">HTML3</label><br>
+                        <input type="radio" id="HTML version" name="HTML version" required>
+                        <label for="HTML version" class="form_label">HTML 2</label><br>
+                    </li>
+                </div>
+            </ol>
+            <input type="submit" class="form_button" value="SUBMIT QUIZ">
+        </div>
+        </form>
+    </body><br>
+    <footer>
+        2023 WWD 130 QUIZ | Martial N'guessan
+    </footer>
+</html>
