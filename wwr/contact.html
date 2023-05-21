@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" US>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Basic HTML and CSS Quiz</title>*
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                <img src="images/logo.jpg" alt= "logo" width="150">
+                </div>
+                <div class="nav-bar">
+                    <nav>
+                        <ul>
+                            <li><a href="#">index.html</a></li>
+                            <li><a href="#">about.html</a></li>
+                            <li><a href="#">trips</a></li>
+                            <li><a href="#">contact.html</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header><br>
+        <div class="infos">
+            <h1>Contact us</h1>
+            <h2>Send us a message</h2>
+            <p>Phone :074-794-6261</p>
+            <p>Email : <a href="email">lordraftingwebsite@gmail.com</a></p>
+            <iframe src="https://www.google.ci/maps/place/Ma+Position/@5.326992,-4.0779963,16z/data= !4m6 !3m5 !1s0xfc1c163c42ad69f :0xc3fd0edabb36f1c8 !8m2 !3d5.3186149 !4d-4.07847" frameborder="0"></iframe><br>
+            <img src="images/employees.jpg" alt="employees" width="150" height="90">
+            <p>Lord rafting employees</p>
+        </div>
+        <form method="post" action="Quiz.php">
+        <div class="l_form">
+                <div class="form_div">
+                    <label for="name" class="form_label">Enter your name</label>
+                    <input type="name" id="name" name="name" placeholder="Enter your name" class="form_input" required>
+                </div><br>
+                <div class="form_div">
+                        <label for="Email" class="form_label">Enter a valid email please</label><br>
+                        <input type="email" id="email" name="email" placeholder= "Enter a valid email" class="form_input" required><br><br>
+                </div>
+                <div class="form_div">
+                    <label for="purpose" class="form_label">What do you want ?</label><br><br>
+                    <input type="radio" id="purpose" name="purpose">
+                    <label for="purpose" class="form_label">General Inquiry</label><br>
+                    <input type="radio" id= "purpose" name="purpose">
+                    <label for="purpose" class="form_label">Reservation</label><br>
+                    <input type="radio" id="purpose" name="purpose" required>
+                    <label for="purpose" class="form_label">Suggestion</label>
+                </div><br>
+                </div><br>
+                <div class="form_div">
+                    <input type= "message" id= " " cols="30" rows="10" class="form_input" placeholder= "write your message">
+                 </div><br>
+                <div class="form_div">
+                        <input type="checkbox" id="subscription" name="subscription">
+                        <label for="subscription" class="form_label">Please subscribe me to the monthly newsletter</label><br>
+                    </div><br><br>
+            <input type="submit" class="form_button" value="SUBMIT MESSAGE">
+        </form>
+    </body><br><br>
+    <footer>
+        <p>®2023 Lord Rafting Company Martial N’guessan WDD 130</p>
+                <nav class="sociallinks">
+                <a href="https://facebook.com"><img src="images/Facebook.png" alt= "Facebook" width= "70"></a>
+                <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter" width="70"></a>
+                <a href="https://instagram.com"><img src="images/Instagram.png" alt= "Instagram" width="70"></a>
+                </nav>
+    </footer>
+</html>
